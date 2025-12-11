@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawsitive Difference</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+
+<body>
+    <!-- Student Name: Fuller, Annvi
+         File Name: Pawsitive
+    -->
+
+    <header>
+
+        <div class="header-wrapper">
+        <span class="paw">&#128062;</span>
+
+        <div class="logo">
+            <img src="images/logo.avif" width="200" height="160" alt="Pawsitive Difference logo">
+        </div>
+        <span class="paw">&#128062;</span>
+        </div>
+        
+    </header>
+
+
+
+   <nav>
+        <ul>
+            <li> <a href="index.html"> Home</a></li>
+            <li> <a href="getinvolved.html"> Get Involved </a></li>
+            <li> <a href="dogtraining.html"> Dog Training </a></li>
+            <li> <a href="Events.html"> Events </a></li>
+            <li> <a href="AdoptablePets.html"> Adoptable Pets </a></li>
+        </ul>
+    </nav>
+
+
+     <!--Hero Image -->
+        <div id="hero">
+            <img src="images/hero.png" alt="dog looking at camera">
+        </div>
+    
+    
+        <!-- Use the main area to add the main content to the webpage-->
+    <main>
+
+        <div class="volunteer-image">
+            <img src="images/volunteer.avif">
+
+        </div>
+
+            <div id="getinvolved">
+                <h2> Here are ways for you to make a PAWsitive Difference</h2>
+                    <table>
+                            <tr> <!--Row 1-->
+                            <th> Opportunity</th>
+                            <th> Details</th>
+                            <th>Action</th>
+                        </tr>
+
+                        <tr><!--Row 2-->
+                            <td> Foster </td>
+                            <td>PAWsitive Difference needs loving foster homes!  We do not have a central facility, so all of the dogs live in volunteer foster homes until they are ready for their forever home.  If you can open your home to one of our adoptable dogs, please complete a foster application today! </td>
+                            <td><button onclick="window.location.href='adoptablepets.html'"> Foster</button></td>
+                
+                        </tr>
+
+                        <tr><!--Row 3-->
+                            <td> Volunteer </td>
+                            <td>We need volunteers to help at adoption events, transport pets, intake fosters and many other things!  We also have a program especially designed for teen volunteers.  If you would like to help, please contact us! </td>
+                            <td><button onclick="window.location.href='events.html'"> Volunteers</a></button></td>
+                        </tr>
+
+                        <tr><!--Row 4-->
+                            <td> Adopt </td>
+                            <td>To submit an adoption application, please visit the Adoptable Pets page and select the pet you are interested in. </td>
+                            <td><button onclick="window.location.href='adoptablepets.html'">Adoptable pets</button></td>
+                        </tr>
+
+                        <tr><!--Row 5-->
+                            <td> Donate </td>
+                            <td>PAWsitive Difference accepts donations thru credit cards and cash apps. </td>
+                            <td><button onclick="performAction(1)">Donate Today </button></td>
+                        </tr>
+
+                        <tr><!--Row 6-->
+                            <td> Shop at Amazon </td>
+                            <td>PAWsitive Difference accepts donations in kind! Any supply that you can provide is a huge help. For a list of what we can use to provide better care for the pets, visit our Amazon Wishlist.  </td>
+                            <td><button onclick="window.location.href='https://www.amazon.com/hz/wishlist/ls/E3EN6K3MZTU3?fbclid=IwdGRjcAMoMhVjbGNrAygx7WV4dG4DYWVtAjExAAEeA4aakvCcgnBeDjCpH4Q934LXBwwJexvD4QWevURrNjoVFigMv_3uAvoW1f0_aem_EuQ78IryJFrA8Fxz0PFORg'"> Visit Amazon </button></td>
+                        </tr>
+
+                        <tr><!--Row 7-->
+                            <td> Shop at Smith's </td>
+                            <td>Through the Smith's Inspiring Donations, PAWsitive Difference recieves part of the proceeds everytime you shop at their store. For more information, visit the link.</td>
+                            <td><button onclick="window.location.href='https://6a85bc83-be09-4c53-be3d-7908f398650a.filesusr.com/ugd/515ae7_5cee7701ff2c4171b016731bf0d59ba8.pdf'"> Shop at Smith's  </button></td>
+                        </tr>
+
+
+                    </table>
+
+                </div>
+
+                <div id="form">
+
+                    <h2> Complete the form below to sign up</h2>
+                    <form class="form-grid">
+                        <fieldset>
+                            <legend> Contact Information</legend>
+                            <label for="fName"> First Name:</label>
+                            <input type="text" name="fName" id="fName">
+
+                            <label for="lName"> Last Name: </label>
+                            <input type="text" name="lName" id="lName">
+                        
+                            <label for="Spouse"> Spouse/Partner/Roommate (Optional): </label>
+                            <input type="text" name="Spouse" id="Spouse">
+
+                            <label for="Email"> Email: </label>
+                            <input type="email" name="email" id="email">
+
+                            <label for="street"> Street: </label>
+                            <input type="text" name="street" id="street">
+
+                            <label for="city"> City: </label>
+                            <input type="text" name="city" id="city">
+
+                            <label for="state"> State: </label>
+                            <input type="text" name="state" id="state">
+
+                            <label for="phone"> Phone: </label>
+                            <input type="tel" name="phone" id="phone">
+
+                            </fieldset>
+
+                        <input type="submit" id="submit" value="Submit" class="btn">
+
+
+
+                </div>
+
+        
+
+
+
+
+
+    </main>
+
+
+
+
+    <footer>
+        <div class="copyright">
+            <p> &copy; 2025 by PAWsitive Difference</p>
+            <p> <a href="mailto:Adopt@pawsitivedifference.org"> Adopt@pawsitivedifference.org</a>  </p>
+            <p class="tel-link round mobile">
+            <a href="tel:7024356422"> 702-4356422</a> </p>
+            <p> Las Vegas, Nevada</p>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/PawsitiveDifferenceLV">
+            <img src="images/facebook-logo.png" alt="Facebook Logo">
+            </a>
+        
+            <a href="https://www.instagram.com/pawsitivedifferencelv/#">
+            <img src="images/ig.avif" alt="IG Logo">
+            </a>     
+
+        </div>
+
+
+    </footer>
+    
+</body>
+</html>
